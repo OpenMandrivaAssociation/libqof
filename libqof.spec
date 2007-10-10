@@ -13,7 +13,7 @@ Source0: http://dl.sf.net/qof/qof-%version.tar.bz2
 Patch0: %name-0.7.1.patch
 
 BuildRequires: doxygen gcc-c++ graphviz libgda-devel perl-XML-Parser sqlite-devel
-BuildRequires: intltool libxml2-devel
+BuildRequires: intltool libxml2-devel glib2-devel
 
 %description
 QOF - Query Object Framework is a library for adding a query engine
