@@ -12,7 +12,7 @@ Url: http://qof.sourceforge.net/
 Source0: http://dl.sf.net/qof/qof-%version.tar.bz2
 Patch0: %name-0.7.1.patch
 
-BuildRequires: doxygen gcc-c++ graphviz libgda-devel perl-XML-Parser sqlite-devel
+BuildRequires: doxygen gcc-c++ graphviz libgda1.2-devel perl-XML-Parser sqlite-devel
 BuildRequires: intltool libxml2-devel glib2-devel
 
 %description
@@ -32,7 +32,7 @@ This package contain header files for %name
 %prep
 %setup -q -n qof-%version
 #%patch0 -p0
-
+#
 #autoconf
 
 %build
