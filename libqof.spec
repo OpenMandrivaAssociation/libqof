@@ -1,6 +1,6 @@
-%define api_version     1.0
-%define lib_major       8
-%define lib_name        %mklibname - %{api_version} %{lib_major}
+#%define api_version     1.0
+#%define lib_major       8
+#%define lib_name        %mklibname - %{api_version} %{lib_major}
 
 Name: libqof
 Version: 0.7.2
