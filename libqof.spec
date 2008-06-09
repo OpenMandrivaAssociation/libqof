@@ -47,9 +47,13 @@ rm -rf %{buildroot}/%{_datadir}/doc/libqof-devel/qof/.libs/
 
 %find_lang qof
 
+%if %mdkversion < 200900
 %post -p /sbin/ldconfig
+%endif
 
+%if %mdkversion < 200900
 %postun -p /sbin/ldconfig
+%endif
 
 %files -f qof.lang
 %doc README NEWS ChangeLog HACKING
