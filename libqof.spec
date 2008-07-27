@@ -4,7 +4,7 @@
 
 Name: libqof
 Version: 0.7.2
-Release: %mkrel 1
+Release: %mkrel 3
 Summary: QOF - Query Object Framework
 License: GPL
 Group: System/Libraries
