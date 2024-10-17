@@ -9,7 +9,7 @@ Summary: QOF - Query Object Framework
 License: GPL
 Group: System/Libraries
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Url: http://qof.sourceforge.net/
+Url: https://qof.sourceforge.net/
 Source0: http://dl.sf.net/qof/qof-%version.tar.bz2
 Patch0: %name-0.7.1.patch
 
