@@ -13,6 +13,11 @@ Url: https://qof.sourceforge.net/
 Source0: http://dl.sf.net/qof/qof-%version.tar.bz2
 Patch0: %name-0.7.1.patch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: doxygen gcc-c++ graphviz libgda1.2-devel perl-XML-Parser sqlite-devel
 BuildRequires: intltool libxml2-devel glib2-devel
 
